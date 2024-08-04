@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="icon" href="net.png" />
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #000;
+        color: #fff;
+    }
+
+    .box {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('netflixe.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 10px 8%;
+        position: relative;
+    }
+
+    .sign {
+        width: 33%;
+        height: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        border-radius: 4px;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .logo {
+        margin-top: 10px;
+        width: 170px;
+        cursor: pointer;
+    }
+
+    .form {
+        margin-top: 50px;
+    }
+
+    .form h1 {
+        margin-left: 60px;
+        margin-top: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .gpt {
+        font-size: 15px;
+        columns: #fff;
+        padding-top: 10px;
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 70%;
+        height: 8vh;
+        margin-left: 60px;
+        margin-top: 20px;
+        padding: 10px;
+        border: 1px solid #b8b6b6;
+        border-radius: 4px;
+        outline: none;
+        color: white;
+    }
+
+    .o {
+        font-family: Arial, Helvetica, sans-serif;
+
+        align-items: center;
+
+        margin-left: 200px;
+        margin-top: 25px;
+    }
+
+    .si {
+        color: white;
+        font-size: 15px;
+        font-weight: 620;
+        align-items: center;
+        width: 70%;
+        height: 6vh;
+        margin-left: 60px;
+        margin-top: 20px;
+        padding: 10px;
+        border: 0;
+        border-radius: 4px;
+        outline: none;
+        background-color: red;
+    }
+
+    .fp {
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 158px;
+        margin-top: 25px;
+
+    }
+
+    .us {
+        color: white;
+        font-size: 15px;
+        font-weight: 620;
+        align-items: center;
+        width: 70%;
+        height: 6vh;
+        margin-left: 60px;
+        margin-top: 20px;
+        padding: 10px;
+        border: 0;
+        border-radius: 4px;
+        outline: none;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    }
+
+    .gap {
+        margin-top: 20px;
+    }
+
+    .re {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 90px;
+        margin-top: -18px;
+    }
+
+    .ch {
+        margin-top: 20px;
+        margin-left: 64px;
+    }
+    .ntn{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+        margin-left: 64px;
+        
+    }
+    .ntn a{
+        color: white;
+    }
+</style>
+
+<body>
+    <div class="box">
+        <img src="logo.png" class="logo" />
+
+        <div class="sign">
+            <div class="form">
+                <h1>Sign In</h1>
+                <div class="gap">
+                    <input class="gpt" type="email" placeholder="Email address" /></br>
+                    <input class="gpt" type="password" placeholder="Password" /></br>
+                </div>
+                <button class="si">Sign In</button>
+                <p class="o">OR</p>
+                <button class="us">Use a sign-in code</button>
+                <p class="fp">Forgot Password ?</p>
+                <input class="ch" type="checkbox">
+                <div class="re">Remember Me</div>
+                <div class="ntn">
+                    New to Netflix? <a href="Netflix.html">Sign up now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

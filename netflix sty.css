@@ -43,13 +43,15 @@ nav button {
     margin-left: 10px;
 }
 
-.btn {
+.opt {
     display: inline-flex;
     align-items: center;
     background: transparent;
     border: 1px solid #fff;
     padding: 7px 10px;
+    color: #fff;
 }
+
 
 .btn img {
     width: 10px;
@@ -170,6 +172,52 @@ nav button {
     margin-left: -200px;
     margin-top: -32px;
     width: 135%;
+}
+.container .accordion .accordion-item button {
+    background-color: rgb(45, 45, 45);
+    color: white;
+    margin-top: 1%;
+    height: 20%;
+
+}
+
+.container .accordion .accordion-item {
+    border: none;
+    cursor: pointer;
+    max-width: 70%;
+    margin-left: 14%;
+}
+
+.container .accordion .accordion-item .accordion-body {
+    font-size: 15px;
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+
+.container .accordion .accordion-item button:hover {
+    background-color: red;
+}
+.container .accordion .accordion-button::after {
+    content: none;
+  }
+
+
+.accordion-button::after {
+    content: none;
+}
+
+.accordion-button .custom-icon {
+    margin-left: auto;
+    font-size: 1.8rem; 
+    font-weight: bold;
+    line-height: 1;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Rotate the plus sign when the accordion is expanded */
+.accordion-button:not(.collapsed) .custom-icon {
+  transform: rotate(180deg);
+  
 }
 
 
